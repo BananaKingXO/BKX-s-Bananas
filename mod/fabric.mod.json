@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bkxs_bananas",
+  "version": "2.0.0",
+  "name": "BKX's Bananas",
+  "description": "Adds Bananas to Minecraft!",
+  "authors": ["BananaKingXO"],
+  "contributors": [
+    "BananaKingXO (Creator)",
+    "Alligator (Artist)"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/datapack/bkxs_bananas",
+    "issues": "http://discord.prismaticshards.xyz"
+  },
+  "license": "LicenseRef-Custom",
+  "icon": "pack.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "http://discord.prismaticshards.xyz"
+      },
+      "update_checker": true
+    }
+  }
+}

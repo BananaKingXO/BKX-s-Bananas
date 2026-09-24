@@ -1,0 +1,26 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "description": [
+      {
+        "text": "Required resources for BKX's Bananas",
+        "color": "#fff34b"
+      }
+    ],
+    "min_format": 34,
+    "max_format": 999
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_assets_1_21",
+        "formats": {
+          "min_inclusive": 34,
+          "max_inclusive": 42
+        },
+        "min_format": 34,
+        "max_format": 42
+      }
+    ]
+  }
+}

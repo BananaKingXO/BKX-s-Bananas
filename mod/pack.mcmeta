@@ -1,0 +1,66 @@
+{
+  "id": "bkxs_bananas",
+  "pack": {
+    "pack_format": 121,
+    "max_format": 999,
+    "min_format": 34,
+    "description": [
+      {
+        "text": "Adds delicious Bananas to Minecraft!",
+        "color": "#fff34b"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_data_26_2",
+        "formats": {
+          "min_inclusive": 88,
+          "max_inclusive": 107
+        },
+        "min_format": [
+          88,
+          0
+        ],
+        "max_format": [
+          107,
+          1
+        ]
+      },
+      {
+        "directory": "overlay_data_1_21_8",
+        "formats": {
+          "min_inclusive": 61,
+          "max_inclusive": 81
+        },
+        "min_format": [
+          61,
+          0
+        ],
+        "max_format": [
+          81,
+          1
+        ]
+      },
+      {
+        "directory": "overlay_data_1_21",
+        "formats": {
+          "min_inclusive": 48,
+          "max_inclusive": 57
+        },
+        "min_format": 48,
+        "max_format": 57
+      },
+      {
+        "directory": "overlay_assets_1_21",
+        "formats": {
+          "min_inclusive": 34,
+          "max_inclusive": 42
+        },
+        "min_format": 34,
+        "max_format": 42
+      }
+    ]
+  }
+}

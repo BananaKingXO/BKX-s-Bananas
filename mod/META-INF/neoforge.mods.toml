@@ -1,0 +1,32 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "LicenseRef-Custom"
+showAsResourcePack = false
+issueTrackerURL = "http://discord.prismaticshards.xyz"
+
+[[mods]]
+modId = "bkxs_bananas"
+version = "2.0.0"
+displayName = "BKX's Bananas"
+displayURL = "https://modrinth.com/datapack/bkxs_bananas"
+description = '''
+	Adds delicious Bananas to Minecraft!
+	'''
+logoFile = "pack.png"
+logoBlur = false
+updateJSONURL = "https://api.modrinth.com/updates/VGT430E1/forge_updates.json"
+credits = "BananaKingXO (Creator), Alligator (Artist)"
+authors = "BananaKingXO"
+
+[[dependencies.bkxs_bananas]]
+modId = "neoforge"
+mandatory = false
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.bkxs_bananas]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21,26.3]"
+ordering = "NONE"
+side = "BOTH"
